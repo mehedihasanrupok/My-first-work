@@ -1,0 +1,250 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+.container{
+        position: absolute; 
+        width: 100%;
+        margin: auto auto; 
+        background-image: url(images/banner/banner1.png);
+        height:100%;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        margin-bottom: 150px;
+}
+
+.first{
+    font-weight: 700;
+    font-size: 65px; 
+    text-align: right;
+    color: #151414;
+    margin-top: 200px;
+    margin-left: 800px;
+    margin-right: 200px;
+}
+
+.second{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #444343;
+    margin-left: 850px; 
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+.primary{ 
+    text-align: right;
+    margin-left: 1140px;
+    padding: 10px;
+    background: #F15B22;
+    border-radius: 5px;
+}
+.write{
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 23px;
+   text-align: right;
+   color: #FFFFFF;
+}
+
+/* 2nd */
+section{
+    margin-bottom: 75px;
+}
+
+.third{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414; 
+    margin-top: 950px;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+.my-pic{
+    margin-top: 850px;
+    margin-left: 200px;
+}
+.banner{
+    display: flex;
+}
+.pera{
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 75px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.point{
+    margin-top: 20px;
+    margin-left: 265px;
+    margin-right: 75px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+/* 3rd */
+.section-title{
+    margin-top: 125px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414; 
+    text-align: center;
+}
+.plans-container{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 25px;    
+    justify-content: space-between; 
+}
+.plans-title{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.need-centre{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+} 
+.description{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+    margin-top: 5px;
+    /* justify-content: space-between; */
+}
+
+/* 4th Item */
+.gradient{
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 230px;
+    margin-right: 230px;
+    position: relative;
+    /* background: linear-gradient(left, transparent, orange),
+    url("images/watch.png"); */
+    background-image: url(images/gradient2.png);
+    
+    border-radius: 8px;
+}
+.bottom-left{
+   position: absolute;
+   bottom: 75px;
+   left: 63px;
+   right: 550px;
+}
+.word-text{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.word-button{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 3px;
+    color: #F15B22;
+    }
+
+/* Last Footer */
+.section-title-2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.contact{
+    display: flex;
+    gap: 50px;
+    background: #151414;
+    justify-content: space-between;
+    /* padding: 130px 200px; */
+}
+.fotter-left{
+    margin-left: 150px;
+    margin-right: 500px;
+}
+
+.contact .section-title{
+        text-align: left;
+}
+
+.contact input{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    /* padding-left: 18px 30px; */
+    padding-right: 18px;
+    border-radius: 10px;
+}
+input{
+    height: 64px;
+}
+.section-description{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+.contact a{
+    text-decoration: none;
+}
+.section-title-3{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.fotter-right{
+    margin-right: 450px;
+    margin-top: 100px;
+}
+.under{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
+
+/* My Part */
+.experience{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow,orange);
+    border-image-slice: 1;   
+}
+.flexiable{
+    display: flex;
+}
